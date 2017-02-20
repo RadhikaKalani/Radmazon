@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<!---Radhika Kalani--->
+
+<html>
+	<head>
+		<title> RadMazon </title>
+		
+		<style>		
+			/* Container */
+			div.container {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+				
+			/* Navigation Bar */
+			nav.fixed-nav-bar {
+				position: fixed;
+				z-index: 9999;
+				width: 100%;
+				background-color: #00a087;
+				padding: 10px 20px 10px 20px;
+				top: 0px;
+				text-align: center;
+				margin-left: -18px;
+			}
+			nav.fixed-nav-bar button {
+				background-image: linear-gradient(to bottom, #009999, #009999);
+				border-radius: 28px;
+				font-family: Arial;
+				font-size: 20px;
+				padding: 10px 20px 10px 20px;
+				text-decoration: none;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: justify;
+			}
+			#buttton { color: white; text-decoration: none;}
+			#buttton:visited { color: white; text-decoration: none;}
+			#buttton:hover { color: #FF99CC; text-decoration: none; }
+			
+			/* Title */
+			h1 { 
+				color: white; 
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 200px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				line-height: 1; 
+				text-align: center; 
+				margin-bottom: 30px;
+				margin-top: 100px;
+				background-color: black;
+				width: 100%;
+			}
+			
+			/* Search */
+			form {text-align: center;}
+			input.enter {
+				background-color: #FFFFCC; 
+				width: 300px; 
+				padding: 5px; 
+				border: 5px solid FFFFCC; 
+				margin: 10px;
+				font-size: 19px;
+			}
+			input.submit {
+				background-color: #FFFFCC; 
+				width: 50px; 
+				padding: 5px; 
+				border: 5px solid FFFFCC; 
+				margin: 10px;
+				font-size: 20px;
+			}
+			input.submit:hover {color: red; cursor: pointer;}
+			
+			/* Text */
+			p.textt {
+				background-color: white; 
+				margin-top: 10px;
+			}
+			
+			div.one, div.two, div.three, div.four, div.five {
+				padding-top: 10px;
+				padding-bottom: 30px;	
+				padding-left: 50px;
+				padding-right: 50px;
+				background-color: #ECECEB;
+				font-size: 20px;
+				font-family: Times New Roman;
+			}
+			div.one { padding-right: 500px;}
+			div.two { padding-left: 500px; background-color: white;}
+			div.three { padding-right: 500px;}
+			div.four { padding-left: 500px; background-color: white;}
+			div.five { padding-right: 500px;}
+			h3 {
+				font-family: Times New Roman;
+				font-size: 30px;
+				color: #00a087;
+			}
+			h2 {
+				color: #00CCFF; 
+				text-align: center;
+				margin-left: 300px;
+				margin-right: 300px; 
+				font-style: oblique;
+			}
+			
+			/* Footer */
+			div.footer {
+				text-align: center;
+			}
+			#footer {
+				text-align: center;
+				width: 200px; 
+				height: 200px; 
+				text-align: center;
+				background-color: white;
+			}
+			span.footerr {
+				background-color: #D4D4BF;
+				font-family: Times New Roman;
+				font-size: 20px;
+				width: 100%;
+				bottom: 0px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			a { color: black; text-decoration: none;}
+			a:visited { color: black; text-decoration: none;}
+			a:hover { color: black; text-decoration: underline; }
+			
+		</style>
+		
+		<script type= "text/javascript">
+			//Splash Page
+			//show random items in store
+		</script>
+			
+	</head>
+	
+	<body>	
+			<!-- Navigation Bar -->
+			<nav class = "fixed-nav-bar"> 
+				<button> Home Page </button>
+				<button> <a id = "buttton" href = "database.html"> Explore </a> </button>
+				<button> <a id = "buttton" href = "sellitem.html"> Sell Item </a> </button>
+				<button> <a id = "buttton" href = "signup.html"> Sign Up <a> </button>
+				<button> <a id = "buttton" href = "signin.html"> Log In </a> </button>
+				<button> <a id = "buttton" href = "contentpage-contactus.html"> Contact Us </a> </button>
+				<button> <a id = "buttton" href = "help.html"> Help </a> </button>
+			</nav> 
+			
+		<div class = "container">
+			<!-- Heading -->
+			<h1> Radmazon </h1> 
+			<hr>
+			
+			<!-- Search Bar 
+			ENTER SOME PHP HERE-- PHP CONNECTS SEARCH AND DISPLAYS ITEMS SEARCHED TO ITEMS FOUND IN DATABASE-->
+			<form id = "formm" method = "get" action = "splashpage.html">
+					<input class = "enter" placeholder = "Enter something to start searching!" type = "text" name = "color" />
+					<input class = "submit" type = "submit" value = "Go!" />
+			</form> 
+			<hr>
+			
+			<!-- Description -->
+			<p class = "textt">
+				<div class = "one">
+					<h3> What is Radmazon? <br /> </h3>
+					RadMazon is an organization created to ensure teenagers get everything they need.
+					<!-- <img src = "logo.jpg."> -->
+				</div>
+				
+				<div class = "two">
+					<h3> What can you buy here? <br /> </h3> 
+					From clothing to makeup, for anyone, RadMazon is here.
+					You can sell your item, you can buy multiple items, and you can keep a track of your buying/selling history.
+				</div>
+				
+				<div class = "three">
+					<h3> Where can you access RadMazon from? <br /> </h3>
+					Since this website was designed by a high-schooler in New York, at the moment this website is able to be launched ONLY from New York City residents.
+					There is no shipping and packing charges involved...
+				</div>
+				
+				<div class = "four">
+					<h3> How does RadMazon work? <br /> </h3> 
+					If you want to buy something, you will meet up with the seller in the locations that RadMazon provides for its members.
+					Connect with other New Yorkers and buy/sell anything today!
+				</div>
+				
+				<div class = "five">				
+					<h3> Need help? <br /> </h3>
+					No worries. Shoot us an email and we will reply in a matter of minutes.
+				</div>
+			</p>
+			<hr>
+			
+			<h2> "I was inspired by the Buying/Selling pages for many articles at school. 
+				I decided it was time that everyone can buy/sell easily." <br /> 
+				- Radhika Kalani, founder of RadMazon. 
+			</h2>
+			<hr>
+			
+			<!-- Footer -->
+			<div class = "footer">
+				<img id = "footer" src = "logo.jpg."> <br /> <br />
+				<span class  = "footerr">
+					<a href = "help.html"> Conditions of Use </a>  <br />
+					<a href = "help.html"> Privacy Notice </a> <br />
+					&copy; 2015 - , RadMazon.com, Inc. or its affiliates
+				</span>
+			</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,70 @@
+MY DATABASE:
+WHITE BACKGROUND
+
+
+shirts:
+	>blouses
+	>button down
+	>t-shirts
+	>shirts
+
+pants:
+	>joggers
+	>dress pants
+	>kakhis
+	>leather pants
+	>running pants
+	>jeans
+
+belts:
+	>brown belts
+	>cowboy
+	>brand named LV
+
+lingerie:
+	>bras
+	>undies
+
+skirts:
+	>maxi
+	>pencil
+	>skater
+
+dresses:
+	>skater
+	>backless
+	>tube
+
+socks:
+	>high socks
+	>knee socks
+	>ankle socks
+
+makeup:
+	>mascara
+	>eye shadow
+	>eye liner
+	>red lipstick
+	>lipstain
+
+shoelaces:
+	>black shoelaces
+	>white shoelaces
+	>nude shoelaces
+	>no shoelaces
+	
+movies:
+	>comedies
+		>russel peters
+	>horror
+		>insidious
+		>halloween
+	>romantics
+		>the notebook
+		>titanic		
+	>action
+		>avengers
+		>fast & furious series
+		>300
+
+

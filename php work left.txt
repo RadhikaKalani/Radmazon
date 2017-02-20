@@ -1,0 +1,15 @@
+PHP:
+
+splashpage- needs php for search button --> save search as php variable. php variable used to find item in database. display.
+
+sellitem- needs php when you submit form. adds item you have into the database with items already
+
+signup- when user signs up it adds your data into the database of users. reconnects you to the sign in page.
+
+signin- when user signs in it looks into database to find the desired name-- if name isn't there -- it says there is an error. 
+
+forgot pword- looks into database to find the desired email. display the username and password of the person on the screen.
+ change checkemail page--> into confirmation page
+ 
+ explore -- display items in the store (in any order)
+ when someone clicks on it, the database looks for the item clicked --> and displays all the data about it. one file to show - use parameters
